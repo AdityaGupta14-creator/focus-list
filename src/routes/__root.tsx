@@ -77,14 +77,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "FocusList — Today's Ledger" },
+      {
+        name: "description",
+        content:
+          "FocusList is a calm, clutter-free to-do app with priorities, filters, and stats. Tasks stay saved on your device.",
+      },
+      { name: "author", content: "FocusList" },
+      { property: "og:title", content: "FocusList — Today's Ledger" },
+      {
+        property: "og:description",
+        content:
+          "A calm, clutter-free to-do app. Add tasks, set priorities, filter, search, and track your progress.",
+      },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:card", content: "summary" },
     ],
     links: [
       {
