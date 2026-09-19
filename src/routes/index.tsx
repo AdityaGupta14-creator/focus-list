@@ -210,10 +210,10 @@ function FocusList() {
           </div>
           <div className="text-right">
             <div className="font-mono text-xs text-muted-foreground">
-              {formatDate(now)}
+              {hydrated ? formatDate(now) : " "}
             </div>
             <div className="mt-0.5 font-mono text-xs text-foreground">
-              {formatClock(now)}
+              {hydrated ? formatClock(now) : " "}
             </div>
           </div>
         </header>
